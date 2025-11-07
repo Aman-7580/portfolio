@@ -1,29 +1,44 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-function Hero() {
+export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="flex flex-col justify-center items-center text-center h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900"
-    >
-      <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-        Hi, I'm <span className="text-blue-500">Aman Panwar</span>
-      </h1>
-      <h2 className="text-2xl md:text-3xl font-semibold text-gray-300 mb-6">
-        Full Stack Web Developer 🚀
-      </h2>
-      <p className="max-w-2xl text-gray-400 mb-8 px-4">
-        I design and build modern, responsive web applications with clean UI,
-        powerful backends, and smooth user experiences.
-      </p>
-      <a
+    <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-b from-[#050505] to-[#0a0a1a] text-center">
+      <motion.h1
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="text-6xl md:text-7xl font-extrabold text-[#00FFFF] drop-shadow-[0_0_25px_#00FFFF]"
+      >
+        Aman <span className="text-white">Panwar</span>
+      </motion.h1>
+
+      <motion.h2
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2 }}
+        className="text-2xl md:text-3xl mt-4 text-[#00FFFF] tracking-wider"
+      >
+        Full Stack Web Developer 💻
+      </motion.h2>
+
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1 }}
+        className="mt-6 text-lg md:text-xl text-gray-300 max-w-2xl px-4"
+      >
+        Turning ideas into <span className="text-[#00FFFF]">interactive web experiences</span>.
+      </motion.p>
+
+      <motion.a
         href="#projects"
-        className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow-lg transition-all duration-300"
+        whileHover={{ scale: 1.1, boxShadow: "0 0 25px #00FFFF" }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className="mt-10 px-8 py-3 border-2 border-[#00FFFF] rounded-full text-[#00FFFF] font-semibold hover:bg-[#00FFFF] hover:text-black transition-all"
       >
         View My Projects
-      </a>
+      </motion.a>
     </section>
   );
 }
-
-export default Hero;
