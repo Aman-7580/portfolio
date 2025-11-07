@@ -1,70 +1,58 @@
-# 🌐 Aman Panwar — Portfolio Website
+# 🌐 Aman Panwar – Personal Portfolio
 
-This is my personal **developer portfolio** built with **React** and **Tailwind CSS**, showcasing my skills, projects, and contact information.  
-It highlights my journey as a **Full Stack Web Developer** and displays my featured projects like **Movie Recommendation App** and **Highway Delite App**.
+🚀 **Live Demo:** [View Portfolio](https://portfolio-two-phi-93.vercel.app)
 
----
-
-## 🚀 Tech Stack
-
-- ⚛️ **React.js** — Frontend Library  
-- 🎨 **Tailwind CSS** — Styling  
-- 🎞️ **Framer Motion** — Smooth animations  
-- 🧩 **Lucide React Icons** — Beautiful modern icons  
-- 💡 **Vite / CRA** — Development setup
+Hi, I'm **Aman Panwar**, a passionate **Full Stack Web Developer** who loves building beautiful, functional, and scalable web applications.  
+This portfolio showcases my projects, skills, and ways to connect with me.
 
 ---
 
-## 💻 Features
+## 🛠️ Tech Stack
 
-✅ Fully responsive design  
-✅ Modern UI with Tailwind  
+**Frontend:**
+- React.js  
+- Tailwind CSS  
+- Framer Motion  
+- Lucide Icons  
+
+**Deployment:**
+- Vercel  
+
+---
+
+## 📂 Features
+✅ Modern, responsive UI  
 ✅ Smooth animations using Framer Motion  
 ✅ Projects and skills sections  
-✅ Contact form (coming soon)  
-✅ Fast performance and clean code  
+✅ Contact form for communication  
+✅ Fully optimized for mobile and desktop  
 
 ---
 
-## 🧩 Sections
+## 💼 Projects
+### 1️⃣ [Highway Delite – Experience Booking App](https://github.com/Aman-7580/highway-delite-bookit)
+A full-stack web application built with **Next.js, Node.js, Express, Prisma ORM**, and **Tailwind CSS** that allows users to explore and book highway experiences.
 
-- 🧭 **Navbar** — Easy navigation between sections  
-- 👋 **Hero Section** — Introduction and title  
-- 💼 **Projects** — Showcases my work  
-- ⚙️ **Skills** — Tools & technologies I use  
-- 📬 **Contact** — Reach out to me  
-
----
-
-## 🖼️ Screenshots
-
-### 💻 Home Page
-![Portfolio Screenshot](https://github.com/Aman-7580/portfolio/blob/main/public/screenshot-home.png)
+### 2️⃣ [Movie Recommendation System](https://github.com/Aman-7580/movie-recommendation-app)
+A Flask-based project that suggests movies using the **TMDB API**, allowing users to register, log in, and explore personalized movie suggestions.
 
 ---
 
-## 📚 Featured Projects
-
-### 🎬 Movie Recommendation App
-A web app that recommends movies using content-based filtering.
-
-### 🚗 Highway Delite App
-A travel companion app providing route-based recommendations for travelers.
-
----
-
-## 🧑‍💻 Author
-
-**👋 Aman Panwar**  
-🎓 MCA Final Year | 💼 Aspiring Full Stack Developer  
-📍 Dehradun, India  
-🌐 [GitHub](https://github.com/Aman-7580) • [LinkedIn](#) • [Portfolio Website](#)
+## 🧠 Skills
+- HTML, CSS, JavaScript, React.js  
+- Node.js, Express.js  
+- MongoDB, MySQL  
+- Git & GitHub  
+- Tailwind CSS, Bootstrap  
+- REST APIs  
 
 ---
 
-## ⚙️ Setup & Installation
+## 📫 Contact Me
+📧 **Email:** amanpanwar1302@gmail.com  
+🔗 **LinkedIn:** [linkedin.com/in/aman-panwar](https://linkedin.com/in/aman-panwar-941b1323a)  
+💻 **GitHub:** [github.com/Aman-7580](https://github.com/Aman-7580)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Aman-7580/portfolio.git
-   cd portfolio
+---
+
+> 🖤 Designed & Built by **Aman Panwar** with React.js and Tailwind CSS
